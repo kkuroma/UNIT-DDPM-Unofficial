@@ -8,5 +8,8 @@ UNIT-DDPM is an unpaired image-to-image translation method using diffusion model
 ## Usage
 `train.py` and `sampling.py` contains codes for the training and sampling strategy, respectively. Edit your desired paths and params in `configs.py` first. An alternate way would be using the provided jupyter template instead (TBA). I have trained the models on an anime-to-human cycleGAN dataset, which explains my variable names.
 
+## Bug Report
+For any unintended behavior found, please contact me.
+
 ## Acknowledgement
 Thank you https://github.com/lucidrains/denoising-diffusion-pytorch for the original diffusion codes
